@@ -1,0 +1,138 @@
+body{
+background-color:#558C89;
+color:#ddd;
+}
+#container{
+    background-color:transparent;
+    width:700px;
+    margin-left:350px;
+    top:60px;
+    position:absolute;
+     
+}
+#heading{
+    font-size:30px;
+    text-align: center;
+    font-family: cursive;
+    color:#ddd;
+}
+#heading .hpic{
+    width:700px;
+    height:400px;
+	float: center;
+}
+#content{
+    font-family: georgia;
+}
+.icon{
+    width:30px;
+    height:20px;
+}
+/*** NAVIGATION ***/
+#nav{
+    width:100%;
+    height:50px;
+    background-color:white;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:100;
+}
+#nav .nlinks{
+    float:left;
+    background:#74AFAD;
+    padding:5px;
+    margin:10px;
+}
+.nlinks a{
+    color:#000;
+    padding:5px;
+    text-decoration:none;
+    font-size:12px;
+    text-transform:uppercase;
+}
+.t{
+    float:right;
+    margin:10px;
+    font-size:20px;
+    font-family:cursive;
+    color:#ddd;
+}
+
+/*PUERTO RICO*/
+.prpics{
+    float:left;
+    width:350px;
+    height:250px;
+}
+/*INDIA*/
+.inpics{
+	 float:left;
+    width:350px;
+    height:250px;
+}
+/*SIDEBARS*/
+#sidebar1{
+    top:50px;
+    position: fixed;
+    background-color:transparent;
+    height:100%;
+    width:300px;
+    left:0;
+    
+}
+#sidebar1 .spic{
+    border:1px solid black;
+    margin:12px;
+    height:150px;
+    width:250px;
+	text-align: center;
+}
+ .caption{
+    font-size:12px;
+    margin:-12px;
+     text-align:center;
+}
+
+#sidebar2{
+    right:0;
+    top:50px;
+    position: fixed;
+    background-color:transparent;
+    height:100%;
+    width:300px;
+	text-align: center;
+}
+
+#sidebar2 .spic{
+    border:1px solid black;
+    margin:12px;
+    float:right;
+    height:150px;
+    width:250px;
+	text-align: center;
+}
+
+/*CONTACT PAGE*/
+.contact{
+    background-color:#eee;
+    color:#444;
+    border:5px solid #000;
+    text-align:center;
+}
+.contact input{
+    float:center;
+    background-color:transparent;
+}
+footer{
+	font-size: 11px;
+	text-align: center;
+}
+p{
+	text-align: left;
+}
+
+
+
+

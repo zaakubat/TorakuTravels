@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pricing</title>
+	<link rel="stylesheet" href="tt.css">
+</head>
+
+<body>
+    <!--NAVIGATION-->
+        <div id="nav">
+            <div class="nlinks">
+                <a href="index.html">Home</a>
+                <a href="India.html">India</a>
+                <a href="PuertoRico.html">Puerto Rico</a>
+                <a href="Pricing.html">Prices & Tickets</a>
+                <a href="FAQ.html">FAQ Page</a>
+                <a href="Contact.html">Contact us</a>
+            </div>
+                <div class="t">Toraku Travels</div>
+        </div>
+   
+    
+    
+<div id="form">
+	<h1 id="head"> Toraku Travels!</h1>
+	<h3> Flights </h3>
+<form name="test" action="test.php" method="post">
+<fieldset>
+	<p> Please choose a type of trip: </p>
+	<input type="radio" name="trip" value="Round Trip" checked> Round Trip
+	<input type="radio" name="trip" value="One Way" checked> One Way
+
+	<p><label>Fly From:</label> <input type="text" name="flyfrom" required></p>
+	<p><label>Fly To:</label> <input type="text" name="flyto" required></p>
+	<p><label>Departure Date:</label> <input type="text" name="departdate" required></p>
+	<p><label>Return Date:</label> <input type="text" name="returndate" required></p>
+	
+	<p><label>Number of Children(Under 3):</label> <input type="text" name="children" required></p>
+	<p><label>Number of Adults:</label> <input type="text" name="adults" required></p>
+	<p><label>Number of Seniors(65+):</label> <input type="text" name="seniors" required></p>
+	<p><label>Number of Infants in lap:</label> <input type="text" name="lap" required></p>
+	
+	<p>Please choose the type of class you wish to fly on:
+	<br>
+	<br>
+	<input type="radio" name="class" value="business" checked> Business<br> 
+	<input type="radio" name="class" value="economy" checked> Economy<br>
+	<input type="radio" name="class" value="first" checked> First-Class<br>
+	<br>
+	<input type="Submit" name="Submit" value="Search Flights" id="button">			
+	
+</fieldset>	
+</div>
+</body>
+</html>
